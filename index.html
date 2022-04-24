@@ -5,82 +5,154 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Curriculum vitae</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div>
-				<p class="header__headline">
-					Curriculum vitae
-				</p>
-			</div>
-			<div>
-				<img src="images/cv.png" alt="cv" class="header__image">
-			</div>
-		</header>
-		<main class="main">
-			<p>
-				My name is Danil Chemodanov.
-			</p>
-			<hr color="#eeeeee" size="1" />
-			<p>
-				Here are some ways you can contact me:
-				<table>
-					<tr>
-						<td>Mail</td>
-						<td>dan.cmdn@gmail.com</td>
-					</tr>
-					<tr>
-						<td>Telegram</td>
-						<td>+375298002493</td>
-					</tr>
-					<tr>
-						<td>Discord</td>
-						<td>@dancmdn</td>
-					</tr>
-					<tr>
-						<td>VK</td>
-						<td><a href="https://vk.com/dancmdn">vk.com/dancmdn</a></td>
-					</tr>
-					<tr>
-						<td>LinkedIn</td>
-						<td><a href="https://www.linkedin.com/in/dancmdn/">linkedin.com/in/dancmdn</a></td>
-					</tr>
-				</table>
-			</p>
-			<hr color="#eeeeee" size="1" />
-			<p>
-				I've read reviews about RS School from previous students who succesfully 
-				completed the course, so I realised for myself that this is exactly what 
-				I need. I love the idea of competitive scoreboard and practice oriented
-				studying. Here I am to get as much expirience in front-end development 
-				as possible and find the opportunity to start a career of front-end developer.
-			</p>
-			<hr color="#eeeeee" size="1" />
-			<p>
-				Skills:
-				<table>
-					<tr>
-						<td>HTML</td>
-					</tr>
-					<tr>
-						<td>CSS</td>
-					</tr>
-					<tr>
-						<td>JS</td>
-					</tr>
-				</table>
-			</p>
-			<hr color="#eeeeee" size="1" />
-			<p>
-				English: A2 (pre-intermediate)
-			</p>
-		</main>
 
-	</div>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header__content">
+				<h1>Curriculum vitae</h1>
+				<img src="https://avatars.githubusercontent.com/u/55910234?v=4" alt="CV-image" class="header__image">
+			</div>
+		</div>
+	</header>
 
+	<main class="main">
+		<div class="wrapper">
+			<div class="main__content">
+
+				<div class="main__item">
+					<h2>Contacts</h2>
+					<nav class="contacts__nav">
+						<ul>
+							<li>
+								<span>Mail</span>
+								<span>
+									<a target="_blank" href="mailto:dan.cmdn@gmail.com">
+										dan.cmdn@gmail.com
+									</a>
+								</span>
+							</li>
+							<li>
+								<span>Telegram</span>
+								<span>
+									<a target="_blank" href="https://t.me/dancmdn">
+										dancmdn
+									</a>
+								</span>
+							</li>
+							<li>
+								<span>Discord</span>
+								<span>@dancmdn</span>
+							</li>
+							<li>
+								<span>VK</span>
+								<span>
+									<a target="_blank" href="https://vk.com/dancmdn">
+										vk.com/dancmdn
+									</a>
+								</span>
+							</li>
+							<li>
+								<span>LinkedIn</span>
+								<span>
+									<a target="_blank" href="https://www.linkedin.com/in/dancmdn/">
+										linkedin.com/in/dancmdn
+									</a>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="main__item">
+					<h2>Info</h2>
+					<p>
+						My name is Danil Chemodanov and I'm a beginner frontend-developer. I've read reviews about RS School from previous students who succesfully
+						completed the course, so I realised for myself that this is exactly what
+						I need. I love the idea of competitive scoreboard and practice oriented
+						studying. Here I am to get as much expirience in front-end development
+						as possible and find the opportunity to start a career of front-end developer.
+					</p>
+				</div>
+				
+				<div class="main__item">
+					<h2>Education</h2>
+					<ul>
+						<li>
+							<h3>Brest State Technical University</h3>
+							<p>Civil Engineer (September 2014 - June 2019)</p>
+						</li>
+						<li>
+							<h3>Brest State Technical University</h3>
+							<p>Software Engineer (November 2018 - April 2020)</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="main__item">
+					<h2>Languages</h2>
+					<ul>
+						<li>Russian - Native</li>
+						<li>English - B1</li>
+					</ul>
+				</div>
+
+				<div class="main__item">
+					<h2>Skills</h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>React</li>
+					</ul>
+				</div>
+
+				<div class="main__item">
+					<h2>Code example</h2>
+					<div>
+						const explode = (s) => [...s].map((item) => item.repeat(+item)).join('')
+					</div>
+				</div>
+
+				<div class="main__item">
+					<h2>Project examples</h2>
+					<nav>
+						<ul>
+							<li>
+								<a target="_blank" href="https://dancmdn.github.io/noisli-react-app/">Noisli-like app</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://dancmdn.github.io/rick-and-morty-react-app/">Rick and Morty app</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__content">
+				<div class="footer__item">
+					<a target="_blank" href="https://github.com/dancmdn">dancmdn</a>
+				</div>
+				<div class="footer__item">April 2022</div>
+				<div class="footer__item">
+					<a target="_blank" href="https://rs.school/js/">
+						<img
+							src="https://rolling-scopes-school.github.io/dancmdn-JS2020Q3/english-for-kids/assets/icons/rs_school_js.svg"
+							alt="Rolling Scopes Schhol">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
